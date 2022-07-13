@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.head {
+    text-align: center;
+    margin: 10px 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100%;
+    height: 20vh;
+}
+div.head h1{
+    position: relative;
+    top: 8vh;
+}
+
+section.box-container {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+div#box1 {
+    margin: 30px auto;
+    display: block;
+    height: 215px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    background-color: grey;
+}
+
+div#box2 {
+    margin: 30px auto; 
+    display: block;
+    height: 215px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    background-color: grey;
+}
+
+div#box3 {
+     margin: 30px auto; 
+    display: block;
+    height: 215px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    background-color: grey;
+}
+
+div#box1 h1 {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 10px;
+    padding: 2px 30px;
+    background-color: rgb(175, 5, 5);
+    color: white;
+    display: inline-block;
+    float: right;
+}
+
+
+div#box2 h1 {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 10px;
+    padding: 2px 30px;
+    background-color: rgb(236, 226, 131);
+    color: white;
+    display: inline-block;
+    float: right;
+}
+
+
+div#box3 h1 {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 10px;
+    padding: 2px 30px;
+    background-color: rgb(112, 12, 95);
+    color: white;
+    display: inline-block;
+    float: right;
+}
+div#box1 p, div#box2 p, div#box3 p {
+    text-align: center;
+    color: white;
+    clear: right;
+}
+
+
+ @media (max-width: 991px)  {
+    div#box1, div#box2, div#box3{
+    flex: 1 1 300px;
+    margin: 15px 30px;
+ }
+}
+ @media (max-width: 767px) {    
+    div#box1, div#box2, div#box3{
+        flex: 1 1 300px;
+        margin: 15px 40px;
+ }
+
+}
