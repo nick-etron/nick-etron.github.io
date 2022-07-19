@@ -1,0 +1,37 @@
+.navbar {
+    border: 2px solid black;
+}
+
+.navbar-brand {
+    color: aliceblue;
+    font-size: 5vh;
+}
+
+.navbar-toggler {
+    color: aliceblue;
+}
+
+.nav-link {
+    color: black;
+    font-size: 4vh;
+    text-align: center;
+}
+
+hr {
+    color: black;
+}
+
+h1 {
+    font-size: 6vh;
+    height: 15vh;
+}
+
+.main {
+    background-color: grey;
+}
+
+@media (max-width:574px) {
+    .main {
+        width: 80vw;
+    }
+}
